@@ -1,6 +1,6 @@
 var http = require("http");
 
-function handler(req, res) {
+const handler = (req, res) => {
     console.log("Receiving a new request...");
     res.end("Hello Diego!");
 };
